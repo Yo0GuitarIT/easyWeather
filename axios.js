@@ -10,7 +10,7 @@ let getSearchUrl = (cityName, apikey) => {
 
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=${apikey}`;
 
-getCity.addEventListener("click", function () {
+getCity.addEventListener("click", () => {
   let inputCity = document.getElementById("cityName").value;
   let MySearchApiUrl = getSearchUrl(inputCity, apikey);
   console.log(MySearchApiUrl);
