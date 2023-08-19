@@ -38,5 +38,3 @@ getCity.addEventListener("click", () => {
       console.log(error);
     });
 });
-
-// to git pull
