@@ -1,4 +1,3 @@
-//OK~~
 let getCity = document.getElementById("getCity");
 let weatherOutput = document.getElementById("weatherOutput");
 const apikey = "99637571efbd1288b5b43df68797c6da";
